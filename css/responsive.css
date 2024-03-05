@@ -1,0 +1,601 @@
+@media screen and (max-width: 1200px) {
+    #home {
+        overflow: hidden;
+
+    }
+
+    #form-search {
+        width: 57%;
+    }
+
+    #company-box span, #company-box h1 {
+        font-size: 50px;
+    }
+
+    .service {
+        flex-basis: 30%
+    }
+
+    .service > a {
+        font-size: 15px;
+    }
+
+    .service > p {
+        font-size: 11px;
+        margin-bottom: 27px;
+    }
+
+    .service > h3 {
+        font-size: 21px;
+    }
+
+    .icon-box {
+        width: 70px;
+        height: 70px;
+        font-size: 24px;
+    }
+
+    .service {
+        padding: 15px 14px 19px 13px;
+    }
+
+    .comment-text > h4 {
+        font-size: 16px;
+    }
+
+    .comment-text > p {
+        font-size: 14px;
+        margin-bottom: 13px
+    }
+
+    .text > p {
+        font-size: 14px;
+
+    }
+
+
+    .comment-text {
+        right: 106px;
+        margin-top: 10px;
+        min-height: 0;
+    }
+
+    .comment > img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .comment > img[alt="quote"] {
+        width: 114px;
+        height: 58px;
+    }
+
+    .comment {
+        padding: 28px 20px;
+        min-height: 290px;
+    }
+
+    .text {
+        top: 130px;
+    }
+
+
+    .sample > h4 {
+        font-size: 22px;
+    }
+
+    .sample-text > p {
+        font-size: 18px;
+    }
+
+    .sample-text > h4 {
+        font-size: 24px;
+    }
+
+    #filter {
+        width: 56%;
+    }
+
+
+
+    .part > h4::before {
+        width: 97px;
+    }
+
+    ul#list a:link,
+    ul#list a:visited {
+        padding: 9px;
+    }
+
+    .part > p {
+        font-size: 13px;
+        padding: 15px;
+    }
+
+    link {
+        width: 131%;
+    }
+
+    ul#network a:link,
+    ul#network a:visited {
+        width: 38px;
+        height: 41px;
+    }
+
+    #link a:link,
+    #link a:visited {
+        padding: 7px;
+        font-size: 7px;
+        border-radius: 4px;
+    }
+
+
+    ul#list a:link, ul#list a:visited {
+        font-size: 14px;
+        margin: -6px 0;
+        padding-right: 0;
+    }
+
+    .part > a > img {
+        width: 93%;
+    }
+
+    #footer-box {
+        column-gap: 60px;
+    }
+
+    #link a {
+        margin: 4px 0;
+    }
+
+}
+
+
+@media screen and (max-width: 992px) {
+#box-show{
+    margin: 20% auto;
+}
+    a+ul>li{
+        margin: 12px 0;
+    }
+    a+ul>li>a{
+        font-size: 10px;
+    }
+    a+ul{
+        left: 190px;
+        top: 73px;
+    }
+    #logo-avita > img {
+        height: 60px;
+    }
+
+    #form-search {
+        width: 65%;
+    }
+
+    #user-search {
+        width: 75%;
+    }
+
+    #main-navigation > ul > li {
+        margin: 0;
+    }
+
+    #show-menu:link, #show-menu:visited {
+        margin: 0;
+    }
+
+    #company-box {
+        margin: -121px auto;
+    }
+
+    #services-box {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .service {
+        flex-basis: 47%;
+    }
+
+    #work-sample-box {
+        grid-template-columns: auto auto;
+
+    }
+
+    #teams-box {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .team {
+        flex-basis: 47%;
+    }
+
+    #footer-box {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .part {
+        flex-basis: 47%;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .labels {
+        flex-basis: 47%;
+
+    }
+
+    .statistic > h4 {
+        font-size: 70px;
+    }
+
+    .comment {
+        min-height: 307px;
+    }
+
+    #filter {
+        width: 70%;
+    }
+
+
+
+
+
+    .part > a > img {
+        width: 48%;
+    }
+
+    #copy {
+        width: 80%;
+    }
+
+    ul#network a:link, ul#network a:visited {
+        margin: 0 15px;
+    }
+
+    .communication > p {
+        font-size: 15px;
+    }
+
+    .sample-text > p {
+        font-size: 21px;
+    }
+    .sample > h4 {
+        font-size: 33px;
+    }
+
+    .title::before {
+        width: 16%;
+        top: 53px;
+        right: 42%;
+    }
+
+    .title::after {
+        width: 8%;
+    }
+
+    #main-navigation > ul > li > a:link,
+    #main-navigation > ul > li > a:visited{
+        font-size: 13px;
+    }
+    #link a:link, #link a:visited {
+        padding: 7px;
+        font-size: 11px;
+        border-radius: 4px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #box-show {
+
+        margin: 26% auto;
+        width: 70%;
+
+    }
+    #overlay-menu > img {
+        width: 31%;
+        left: 34%;
+    }
+
+    #main-navigation > ul {
+        display: none;
+    }
+
+    #show-menu:link,
+    #show-menu:visited {
+        display: inline-block;
+    }
+
+    #services-box {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .service {
+        flex-basis: 50%;
+    }
+
+    #statistics-box {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .statistic {
+        flex-basis: 46%;
+    }
+
+    .comment > img {
+        width: 90px;
+        height: 90px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .comment > img[alt="quote"] {
+        width: 140px;
+        height: 48px;
+        margin: 48px auto;
+    }
+
+    .comment-text {
+        right: 92px;
+    }
+
+    .text > p {
+        margin-top: 95px;
+        font-size: 12px;
+    }
+
+    .comment {
+        min-height: 390px;
+    }
+
+
+    #filter {
+        width: 95%;
+    }
+
+    .sample-text > p {
+        font-size: 16px;
+    }
+
+
+
+    #way-communication-box {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .communication {
+        flex-basis: 46%;
+    }
+
+    #footer-box {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .part {
+        flex-basis: 30%;
+
+    }
+
+    .part > p {
+        font-size: 17px;
+        padding: 15px;
+    }
+
+    .part > img[alt="logo_avita_white"] {
+        width: 34%;
+    }
+
+    #link a:link, #link a:visited {
+        padding: 10px;
+    }
+
+    .part > a > img {
+        width: 60%;
+    }
+
+    #copy {
+        width: 100%;
+    }
+
+
+
+    .color-gray {
+        font-size: 11px;
+    }
+
+    p, span, i {
+        font-size: 15px;
+    }
+
+    title::before {
+        width: 22%;
+        top: 53px;
+        right: 39%;
+    }
+    #form-search {
+        width: 84%;
+    }
+    #company-box span, #company-box h1 {
+        font-size: 37px;
+    }
+    .comment-text > i {
+
+        left: -1px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .show-menu-over i {
+        margin-top: 0;
+    }
+    #statistics-box {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    #company-box span, #company-box h1 {
+        font-size: 42px;
+    }
+    .statistic {
+        flex-basis: 80%;
+        margin-bottom: 40px;
+    }
+
+    #comments-box {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .comment {
+        flex-basis: 80%;
+
+    }
+
+
+    .comment-text {
+        right: 131px;
+    }
+
+    #filter {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-bottom: 13px;
+    }
+
+    #filter {
+        width: 82%;
+    }
+
+    ul#filter a:link, ul#filter a:visited {
+        display: block;
+        width: 363px;
+        padding: 18px 14px 20px 0px;
+
+    }
+
+    #active-filter {
+
+        width: 370px;
+        margin-right: 12px;
+    }
+
+    #filter:nth-child(6) {
+        border: 2px solid red;
+    }
+
+    #work-sample-box {
+        grid-template-columns: auto;
+
+    }
+
+
+    .team {
+        flex-basis: 100%;
+    }
+
+
+
+
+    .communication {
+        flex-basis: 100%;
+    }
+
+    #form-communication {
+        flex-wrap: wrap;
+    }
+
+    /*  #footer-box{   flex-wrap: wrap;
+          row-gap: 20px;}*/
+    .part {
+        flex-basis: 100%;
+
+    }
+
+    #link a:link, #link a:visited {
+        padding: 11px;
+    }
+
+    p, span {
+        font-size: 11px;
+    }
+
+    ul#list a:link, ul#list a:visited {
+        font-size: 17px;
+    }
+
+    .part > a > img {
+        margin-right: 107px;
+    }
+
+    img[alt="logo_avita_white"] {
+        position: relative;
+        top: 0;
+        left: -62px;
+    }
+
+    .fa-copyright {
+        font-size: 12px;
+    }
+
+
+    .sample-text > p {
+        font-size: 22px;
+    }
+
+    .sample > h4 {
+        font-size: 32px;
+    }
+
+    #user-search {
+        width:66%;
+    }
+
+    #form-search {
+        width: 97%;
+    }
+
+    .color-gray {
+        margin-bottom: 10px;
+    }
+
+    #company-box {
+        margin: -177px auto;
+    }
+
+    strong + i {
+        font-size: 12px
+    }
+
+    .title::before {
+        width: 28%;
+        top: 53px;
+        right: 36%;
+    }
+
+    .title::after {
+        width: 13%;
+    }
+    #show_menu > i {
+        vertical-align: 46px;
+    }
+
+    #overlay-menu > img{
+        width: 45%;
+        left: 28%;
+    }
+    .show-menu-over i{
+        margin-top:0;
+    }
+    #box-show{
+        width: 90%;
+        margin: 42% auto;
+    }
+}
